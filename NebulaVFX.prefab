@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 6590846319325793510}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.059, z: -41.9}
+  m_LocalPosition: {x: 0, y: 2.059, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -72,13 +72,22 @@ VisualEffect:
       - m_Value: 0.5
         m_Name: Roughness
         m_Overridden: 1
+      - m_Value: 29.2
+        m_Name: Torus Radius
+        m_Overridden: 1
+      - m_Value: 0.3
+        m_Name: Torus Thickness
+        m_Overridden: 1
     m_Vector2f:
       m_Array:
       - m_Value: {x: 0.75, y: 0.9}
         m_Name: Size Random Min Max
         m_Overridden: 1
     m_Vector3f:
-      m_Array: []
+      m_Array:
+      - m_Value: {x: 0, y: 0, z: -5.04}
+        m_Name: Torus Position
+        m_Overridden: 1
     m_Vector4f:
       m_Array: []
     m_Uint:
